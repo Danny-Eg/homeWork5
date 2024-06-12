@@ -20,8 +20,7 @@ public class Main {
             System.out.println(i);
         }
         System.out.println("Задание5");
-        int year = 1904;
-        for (year = 1904; year <= 2096; year += 4) {
+        for (int year = 1904; year <= 2096; year += 4) {
             System.out.println(+year + "год является високосным");
         }
         System.out.println("Задание 6");
